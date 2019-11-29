@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57d247d9-ce92-43a8-bd9c-df000201c021" name="Default Changelist" comment="" />
+    <list default="true" id="c8fe64ca-6d7a-4b12-9cf1-d55a6b03876c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,24 +17,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1TvIRDa6MACpe2OOEh5QkkzJ35R" />
+  <component name="ProjectId" id="1UIC2SJLCKOuNgybW5YA2Ott5Dr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercice/ExProfs_Liste" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\ICT-133-MFX\Exercice\Ex1_traduction" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,32 +45,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.PHP 8082">
-    <configuration name="PHP 8082" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/Exercice/Ex2_Date" port="8082">
+  <component name="RunManager">
+    <configuration name="PHP 8077" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8077">
       <method v="2" />
     </configuration>
-    <configuration name="PHP" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="PHP Built-in Web Server.PHP" />
-      <item itemvalue="PHP Built-in Web Server.PHP 8082" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57d247d9-ce92-43a8-bd9c-df000201c021" name="Default Changelist" comment="" />
-      <created>1574334131861</created>
+      <changelist id="c8fe64ca-6d7a-4b12-9cf1-d55a6b03876c" name="Default Changelist" comment="" />
+      <created>1575034514101</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574334131861</updated>
-      <workItem from="1574334132991" duration="1073000" />
-      <workItem from="1574931325130" duration="7966000" />
-      <workItem from="1575031020935" duration="29000" />
-      <workItem from="1575033925583" duration="420000" />
+      <updated>1575034514101</updated>
+      <workItem from="1575034515472" duration="1801000" />
     </task>
     <servers />
   </component>
@@ -85,9 +72,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
