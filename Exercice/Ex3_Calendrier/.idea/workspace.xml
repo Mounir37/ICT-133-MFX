@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8fe64ca-6d7a-4b12-9cf1-d55a6b03876c" name="Default Changelist" comment="" />
+    <list default="true" id="6b9152e5-51f4-4f77-828e-45d195ae6776" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,13 +24,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1UIC2SJLCKOuNgybW5YA2Ott5Dr" />
+  <component name="ProjectId" id="1UYkk5OuXpqFJjNnFqPhjvpQRf5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-133-MFX\Exercice\Ex3_Calendrier\CSS" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +49,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PHP 8077" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8077">
+    <configuration name="PHP 8083" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8083">
       <method v="2" />
     </configuration>
   </component>
@@ -55,13 +58,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8fe64ca-6d7a-4b12-9cf1-d55a6b03876c" name="Default Changelist" comment="" />
-      <created>1575034514101</created>
+      <changelist id="6b9152e5-51f4-4f77-828e-45d195ae6776" name="Default Changelist" comment="" />
+      <created>1575541055484</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575034514101</updated>
-      <workItem from="1575034515472" duration="1801000" />
-      <workItem from="1575538804042" duration="691000" />
+      <updated>1575541055484</updated>
+      <workItem from="1575541056641" duration="3387000" />
     </task>
     <servers />
   </component>
@@ -73,9 +75,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
