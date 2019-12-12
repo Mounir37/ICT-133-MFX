@@ -25,17 +25,17 @@ $weeks = array("Lu", "Ma", "Me", "Je", "Ve", "Sa", "Di");
 		?>
     </ul>
 </div>
-<ul class="days">
+<ul class="weekdays">
 	<?php
         for ($i = 0; $i < 7; $i++){
             echo "<li>$weeks[$i]</li>";
         }
 	?>
 </ul>
-<ul>
+<ul class="days">
     <?php
-    for ($i = 1;;){
-
+    for ($i = 1;$i < 31; $i++){
+        echo "<li>$i</li>";
     }
     ?>
 </ul>
