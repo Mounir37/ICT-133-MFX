@@ -20,6 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex3_Calendrier" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576148902024</updated>
       <workItem from="1576148903187" duration="129000" />
+      <workItem from="1576240532893" duration="28000" />
     </task>
     <servers />
   </component>
@@ -55,7 +57,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

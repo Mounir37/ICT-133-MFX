@@ -23,13 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1UYkk5OuXpqFJjNnFqPhjvpQRf5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -49,13 +48,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.PHP 8083">
+  <component name="RunManager" selected="PHP Built-in Web Server.PHP_8083">
     <configuration name="PHP 8083" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8083">
+      <method v="2" />
+    </configuration>
+    <configuration name="PHP_8083" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8083">
       <method v="2" />
     </configuration>
     <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.PHP 8083" />
+      <item itemvalue="PHP Built-in Web Server.PHP_8083" />
+      <item itemvalue="PHP Script.Index.php" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHP Script.Index.php" />
@@ -75,6 +82,8 @@
       <workItem from="1575541056641" duration="3387000" />
       <workItem from="1575636499938" duration="3735000" />
       <workItem from="1576142708050" duration="4431000" />
+      <workItem from="1576240980463" duration="3977000" />
+      <workItem from="1576418131171" duration="1284000" />
     </task>
     <servers />
   </component>
