@@ -23,15 +23,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1UYkk5OuXpqFJjNnFqPhjvpQRf5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-133-MFX\Exercice\Ex3_Calendrier" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\ICT-133-MFX\Exercice\Ex3_Calendrier\CSS" />
     </key>
@@ -84,6 +88,7 @@
       <workItem from="1576142708050" duration="4431000" />
       <workItem from="1576240980463" duration="3977000" />
       <workItem from="1576418131171" duration="1284000" />
+      <workItem from="1576573135739" duration="3100000" />
     </task>
     <servers />
   </component>

@@ -8,82 +8,79 @@
 <body>
 <?php
 /**
- *  Projet: Calendrier
- *  Repos: ICT-133-SRD
- *  Author: Mounir Fiaux
- *  Creation date: 15.12.2019
+ *Auteur:   Mounir Fiaux
+ *Titre:    index.php
+ *Date:     17.12.2019
+ *Version:
  */
 $month = 8;
-$year = 2019;
-if (isset($_GET['month']) && isset($_GET['year'])) {
-    $month = $_GET['month'];
-    $year = $_GET['year'];
+$annee = 2019;
+if (isset($_GET['month']) && isset($_GET['annee'])) {
+	$month = $_GET['month'];
+	$annee = $_GET['annee'];
 }
-$now = time();
-$year += 0;
+$ajd = time();
+$annee += 0;
 $month += 0;
 $mois_avant = $month - 1;
 $mois_apres = $month + 1;
-$annee_avant = $year - 1;
-$annee_apres = $year + 1;
+$annee_avant = $annee - 1;
+$annee_apres = $annee + 1;
+
+
+$jour_commencement = date("w", strtotime("$annee-$month-0"));
+$jour_commencement += 0;
+$dernier_jour_mois_avant = 31;
+while (checkdate($mois_avant, $dernier_jour_mois_avant, $annee) != true) {
+	$dernier_jour_mois_avant--;
+}
+$dernier_jour_mois = 31;
+while (checkdate($month, $dernier_jour_mois, $annee) != true) {
+	$dernier_jour_mois--;
+}
 
 if ($month == 1) {
-    $mois_avant = 12;
-    $mois_apres = 2;
+	$mois_avant = 12;
+	$mois_apres = 2;
 } else if ($month == 12) {
-    $mois_apres = 1;
-    $mois_avant = 11;
-    $yeartomonth = $annee_apres;
+	$mois_apres = 1;
+	$mois_avant = 11;
 } else {
-    $mois_avant = $month - 1;
-    $mois_apres = $month + 1;
-    $yeartomonth = $year;
+	$mois_avant = $month - 1;
+	$mois_apres = $month + 1;
 }
-$jour_commencement = date("w", strtotime("$year-$month-0"));
-$jour_commencement += 0;
-echo $jour_commencement;
-$lastdaypossiblelastmonth = 31;
-while (checkdate($mois_avant, $lastdaypossiblelastmonth, $year) != true) {
-    $lastdaypossiblelastmonth--;
-}
-$lastdaypossiblethismonth = 31;
-while (checkdate($month, $lastdaypossiblethismonth, $year) != true) {
-    $lastdaypossiblethismonth--;
-}
-
 $month = date("F");
 
 echo '<div class="month"><ul>';
-echo "<li>$month<br>$year</li>";
+echo "<li>$month<br>$annee</li>";
 echo "</div></ul>";
 echo '<ul class="weekdays">';
 for ($i = 1; $i <= 7; $i++) {
-    //Generate days of the week:
-    $dayinrun = date("l");
-    if ($dayinrun == date("l", $now) && $month == date("F", $now) && $year == date("Y", $now)) {
-        echo "<li><span class='active'>$dayinrun</span></li>";
-    } else {
-        echo "<li>$dayinrun</li>";
-    }
+	$Jour = date("l");
+	if ($Jour == date("l", $ajd) && $month == date("F", $ajd) && $annee == date("Y", $ajd)) {
+		echo "<li><span class='active'>$Jour</span></li>";
+	} else {
+		echo "<li>$Jour</li>";
+	}
 }
 echo '</ul>';
-$nbdayslastmonth = $jour_commencement;
+$jour_mois = $jour_commencement;
 echo '<ul class="days">';
 
 if ($jour_commencement != 0) {
-    while ($jour_commencement != 0) {
-        $daylastmonth = $lastdaypossiblelastmonth - $jour_commencement + 1;
-        $jour_commencement -= 1;
-        echo "<li class='lastmonth'>$daylastmonth</li>";
-    }
+	while ($jour_commencement != 0) {
+		$jour_mois_avant = $dernier_jour_mois_avant - $jour_commencement + 1;
+		$jour_commencement -= 1;
+		echo "<li class='lastmonth'>$jour_mois_avant</li>";
+	}
 }
 
-for ($i = 1; $i <= $lastdaypossiblethismonth; $i++) {
-    if ($i == date("j", $now) && $month == date("F", $now) && $year == date("Y", $now)) {
-        echo "<li class='thismonth'><span class='active'>$i</span></li>";
-    } else {
-        echo "<li class='thismonth'>$i</li>";
-    }
+for ($i = 1; $i <= $dernier_jour_mois; $i++) {
+	if ($i == date("j", $ajd) && $month == date("F", $ajd) && $annee == date("Y", $ajd)) {
+		echo "<li class='thismonth'><span class='active'>$i</span></li>";
+	} else {
+		echo "<li class='thismonth'>$i</li>";
+	}
 }
 echo '</ul>';
 ?>
