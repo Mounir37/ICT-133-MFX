@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a6d561-8f97-4367-9e1e-4f50c4c6cf5f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +21,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1V6uvDdaeUXBeJcVxxnfhxTXqHA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -44,22 +48,22 @@
       <recent name="$PROJECT_DIR$/view" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8077">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,6 +78,9 @@
       <workItem from="1576586094950" duration="10987000" />
       <workItem from="1576738305406" duration="324000" />
       <workItem from="1576745989990" duration="913000" />
+      <workItem from="1576747129417" duration="275000" />
+      <workItem from="1576747529906" duration="142000" />
+      <workItem from="1576747727804" duration="5931000" />
     </task>
     <servers />
   </component>
@@ -92,5 +99,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Updates" timestamp="1576747762216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Updates/0.0.1920.1040@0.0.1920.1040" timestamp="1576747762216" />
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576747750714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576747750714" />
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom" timestamp="1576754142860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576754142860" />
+    <state width="1340" height="265" key="GridCell.Tab.0.center" timestamp="1576754142860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576754142860" />
+    <state width="1340" height="265" key="GridCell.Tab.0.left" timestamp="1576754142859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576754142859" />
+    <state width="1340" height="265" key="GridCell.Tab.0.right" timestamp="1576754142860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576754142860" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1576749235029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576749235029" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576747745189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576747745189" />
   </component>
 </project>
