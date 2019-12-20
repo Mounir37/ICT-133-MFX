@@ -1,4 +1,5 @@
 <?php
+require_once ('controleur/controleur.php');
 if (isset($_GET['action'])){
 	$action = $_GET['action'];
 }
@@ -8,12 +9,10 @@ else{
 
 switch ($action){
 	case 'movies';
-		$title='Films';
-		require_once 'view/movies.php';
+		showMovies();
 		break;
 	case 'concerts';
-		$title='concerts';
-		require_once 'view/concerts.php';
+		showConcerts();
 		break;
 	default:
 		$title='home';
